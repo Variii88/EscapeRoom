@@ -1,0 +1,598 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|c:\\data\\kfar\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\visual studio 2022\\escape room 2 - copy\\escape room 2\\serverui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\serverui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\serverer\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\serverer\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\serverui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\serverui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\serverer\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\serverer\\accountmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\waitingroomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\waitingroomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\room1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\room1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\modeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\modeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\escaperoomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\escaperoomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\instructionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\instructionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\enterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\enterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\endform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\endform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\waitingroomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\waitingroomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\signupform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\room2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\room2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\room1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\room1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\modeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\modeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\instructionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\instructionsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\escaperoomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\escaperoomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\enterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\enterform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\serverer\\udpbroadcaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\serverer\\udpbroadcaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\serverer\\playerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\serverer\\playerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\serverer\\playerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\serverer\\playerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\serverer\\activeplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\serverer\\activeplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\gamehelpers\\udpdiscovery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\gamehelpers\\udpdiscovery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\gamehelpers\\playerhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\gamehelpers\\playerhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\gamehelpers\\gameprotocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\gamehelpers\\gameprotocol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\gamehelpers\\gameconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\gamehelpers\\gameconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\gamehelpers\\escaperoomdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\gamehelpers\\escaperoomdatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\game\\puzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\game\\puzzlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\game\\puzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\game\\puzzle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\modeform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48B81586-8F0D-4C5E-837D-FCCFF16B55E6}|Escape Room 2\\Escape Room 2.csproj|solutionrelative:escape room 2\\modeform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\escape room 2\\winform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:escape room 2\\winform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountManager.cs",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\ServerER\\AccountManager.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\ServerER\\AccountManager.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\ServerER\\AccountManager.cs",
+              "RelativeToolTip": "Escape Room 2\\ServerER\\AccountManager.cs",
+              "ViewState": "AgIAAI0AAAAAAAAAAAAcwKYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T22:07:26.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginForm.cs [Design]",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\LoginForm.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\LoginForm.cs [Design]",
+              "RelativeToolTip": "Escape Room 2\\LoginForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:54:50.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginForm.cs",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\LoginForm.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\LoginForm.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\LoginForm.cs",
+              "RelativeToolTip": "Escape Room 2\\LoginForm.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAcwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:54:53.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Server.cs",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\ServerER\\Server.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\ServerER\\Server.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\ServerER\\Server.cs",
+              "RelativeToolTip": "Escape Room 2\\ServerER\\Server.cs",
+              "ViewState": "AgIAAHQBAAAAAAAAAAAswHQBAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T21:57:26.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServerUI.cs",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\ServerUI.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\ServerUI.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\ServerUI.cs",
+              "RelativeToolTip": "Escape Room 2\\ServerUI.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAwwDsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:55:39.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ServerUI.cs [Design]",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\ServerUI.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\ServerUI.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\ServerUI.cs [Design]",
+              "RelativeToolTip": "Escape Room 2\\ServerUI.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T08:55:38.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WaitingRoomForm.cs [Design]",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\WaitingRoomForm.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\WaitingRoomForm.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\WaitingRoomForm.cs [Design]",
+              "RelativeToolTip": "Escape Room 2\\WaitingRoomForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T09:39:14.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Room1.cs [Design]",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\Room1.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\Room1.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\Room1.cs [Design]",
+              "RelativeToolTip": "Escape Room 2\\Room1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T09:25:32.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EscapeRoomForm.cs [Design]",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\EscapeRoomForm.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\EscapeRoomForm.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\EscapeRoomForm.cs [Design]",
+              "RelativeToolTip": "Escape Room 2\\EscapeRoomForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T12:18:07.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ModeForm.cs [Design]",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\ModeForm.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\ModeForm.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\ModeForm.cs [Design]",
+              "RelativeToolTip": "Escape Room 2\\ModeForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T16:42:32.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "InstructionsForm.cs [Design]",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\InstructionsForm.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\InstructionsForm.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\InstructionsForm.cs [Design]",
+              "RelativeToolTip": "Escape Room 2\\InstructionsForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T10:31:53.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EnterForm.cs [Design]",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\EnterForm.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\EnterForm.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\EnterForm.cs [Design]",
+              "RelativeToolTip": "Escape Room 2\\EnterForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-23T09:23:52.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SignUpForm.cs [Design]",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\SignUpForm.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\SignUpForm.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\SignUpForm.cs [Design]",
+              "RelativeToolTip": "Escape Room 2\\SignUpForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T11:09:26.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EndForm.cs [Design]",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\EndForm.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\EndForm.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\EndForm.cs [Design]",
+              "RelativeToolTip": "Escape Room 2\\EndForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T12:22:40.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WaitingRoomForm.cs",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\WaitingRoomForm.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\WaitingRoomForm.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\WaitingRoomForm.cs",
+              "RelativeToolTip": "Escape Room 2\\WaitingRoomForm.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T09:39:16.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SignUpForm.cs",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\SignUpForm.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\SignUpForm.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\SignUpForm.cs",
+              "RelativeToolTip": "Escape Room 2\\SignUpForm.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAwEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T11:01:24.51Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Room2.cs [Design]",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\Room2.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\Room2.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\Room2.cs [Design]",
+              "RelativeToolTip": "Escape Room 2\\Room2.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-10T12:00:48.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ModeForm.cs",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\ModeForm.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\ModeForm.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\ModeForm.cs",
+              "RelativeToolTip": "Escape Room 2\\ModeForm.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T16:42:35.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Room1.cs",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\Room1.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\Room1.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\Room1.cs",
+              "RelativeToolTip": "Escape Room 2\\Room1.cs",
+              "ViewState": "AgIAANUAAAAAAAAAAAAAAOQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T09:25:34.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "InstructionsForm.cs",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\InstructionsForm.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\InstructionsForm.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\InstructionsForm.cs",
+              "RelativeToolTip": "Escape Room 2\\InstructionsForm.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAAEYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T10:31:55.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EscapeRoomForm.cs",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\EscapeRoomForm.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\EscapeRoomForm.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\EscapeRoomForm.cs",
+              "RelativeToolTip": "Escape Room 2\\EscapeRoomForm.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAuwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T11:00:15.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "EnterForm.cs",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\EnterForm.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\EnterForm.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\EnterForm.cs",
+              "RelativeToolTip": "Escape Room 2\\EnterForm.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAxwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T10:24:18.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "UDPBroadcaster.cs",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\ServerER\\UDPBroadcaster.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\ServerER\\UDPBroadcaster.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\ServerER\\UDPBroadcaster.cs",
+              "RelativeToolTip": "Escape Room 2\\ServerER\\UDPBroadcaster.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAzwDMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T15:22:23.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PlayerInfo.cs",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\ServerER\\PlayerInfo.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\ServerER\\PlayerInfo.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\ServerER\\PlayerInfo.cs",
+              "RelativeToolTip": "Escape Room 2\\ServerER\\PlayerInfo.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAxwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-25T16:33:01.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PlayerHandler.cs",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\ServerER\\PlayerHandler.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\ServerER\\PlayerHandler.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\ServerER\\PlayerHandler.cs",
+              "RelativeToolTip": "Escape Room 2\\ServerER\\PlayerHandler.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAQwK4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T21:58:21.79Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ActivePlayer.cs",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\ServerER\\ActivePlayer.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\ServerER\\ActivePlayer.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\ServerER\\ActivePlayer.cs",
+              "RelativeToolTip": "Escape Room 2\\ServerER\\ActivePlayer.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-22T19:49:31.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UDPDiscovery.cs",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\GameHelpers\\UDPDiscovery.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\GameHelpers\\UDPDiscovery.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\GameHelpers\\UDPDiscovery.cs",
+              "RelativeToolTip": "Escape Room 2\\GameHelpers\\UDPDiscovery.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-30T15:26:02.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "PlayerHelper.cs",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\GameHelpers\\PlayerHelper.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\GameHelpers\\PlayerHelper.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\GameHelpers\\PlayerHelper.cs",
+              "RelativeToolTip": "Escape Room 2\\GameHelpers\\PlayerHelper.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAQwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T12:29:20.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "GameProtocol.cs",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\GameHelpers\\GameProtocol.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\GameHelpers\\GameProtocol.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\GameHelpers\\GameProtocol.cs",
+              "RelativeToolTip": "Escape Room 2\\GameHelpers\\GameProtocol.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwCYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T12:30:48.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "GameConnection.cs",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\GameHelpers\\GameConnection.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\GameHelpers\\GameConnection.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\GameHelpers\\GameConnection.cs",
+              "RelativeToolTip": "Escape Room 2\\GameHelpers\\GameConnection.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAwGsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T12:41:24.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "EscapeRoomDatabase.cs",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\GameHelpers\\EscapeRoomDatabase.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\GameHelpers\\EscapeRoomDatabase.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\GameHelpers\\EscapeRoomDatabase.cs",
+              "RelativeToolTip": "Escape Room 2\\GameHelpers\\EscapeRoomDatabase.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAQwDYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T22:04:07.284Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "PuzzleManager.cs",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\Game\\PuzzleManager.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\Game\\PuzzleManager.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\Game\\PuzzleManager.cs",
+              "RelativeToolTip": "Escape Room 2\\Game\\PuzzleManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T22:03:36.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Puzzle.cs",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\Game\\Puzzle.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\Game\\Puzzle.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\Game\\Puzzle.cs",
+              "RelativeToolTip": "Escape Room 2\\Game\\Puzzle.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T22:02:19.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "WinForm.cs [Design]",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\WinForm.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\WinForm.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\WinForm.cs [Design]",
+              "RelativeToolTip": "Escape Room 2\\WinForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T22:43:16.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ModeForm.Designer.cs",
+              "DocumentMoniker": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\ModeForm.Designer.cs",
+              "RelativeDocumentMoniker": "Escape Room 2\\ModeForm.Designer.cs",
+              "ToolTip": "C:\\DATA\\KFAR\\\u05D4\u05E0\u05D3\u05E1\u05EA \u05EA\u05D5\u05DB\u05E0\u05D4 \u05D9\u05D1\\Visual Studio 2022\\Escape Room 2 - Copy\\Escape Room 2\\ModeForm.Designer.cs",
+              "RelativeToolTip": "Escape Room 2\\ModeForm.Designer.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAewDQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-08T19:53:21.117Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

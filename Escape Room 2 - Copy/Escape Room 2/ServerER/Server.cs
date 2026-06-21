@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Data.SQLite;
 using System.IO;
 using System.Net;
 using System.Net.Sockets;
@@ -42,6 +43,7 @@ namespace Escape_Room_2.ServerER
         // לוגיקת משחק
         private PuzzleManager puzzleManager = new PuzzleManager();
         private int correctAnswersCount = 0;
+        private HashSet<string> correctPlayers = new HashSet<string>();
         private enum GameState { Waiting, Playing } 
         private GameState gameState = GameState.Waiting;
 
@@ -73,6 +75,20 @@ namespace Escape_Room_2.ServerER
         private void SetupDatabase()
         {
             EscapeRoomDatabase.InitDB(ConnectionString, dbFileName);
+        }
+
+        /// <summary>
+        /// מנקה את טבלת הנתונים
+        /// </summary>
+        public void ClearDatabase()
+        {
+            using (SQLiteConnection conn = new SQLiteConnection(connectionString))
+            {
+                conn.Open();
+                using (SQLiteCommand cmd = new SQLiteCommand("DELETE FROM EscapeRoomUsers", conn))
+                    cmd.ExecuteNonQuery();
+            }
+            Log("Database cleared successfully.");
         }
 
         /// <summary>
@@ -183,17 +199,18 @@ namespace Escape_Room_2.ServerER
             lock (lockObject)
             {
                 connectedPlayers.RemoveAll(p => p.Username == username);
-                if (gameState == GameState.Waiting)
-                {
-                    BroadcastPlayerCount();
-                }
-                else
-                {
-                    Log($"{username} removed from connected players.");
-                    BroadcastToAll($"{GameProtocol.PlayerDisconnected}{username}");
-                    ResetGame();
-                }
-
+            }
+            if (gameState == GameState.Waiting)
+            {
+               BroadcastToAll($"{GameProtocol.PlayerDisconnected}{username}");
+               Log($"{username} removed from connected players.");
+                Task.Delay(1000).ContinueWith(_ => BroadcastPlayerCount());
+            }
+             else
+             {
+                Log($"{username} removed from connected players.");
+                BroadcastToAll($"{GameProtocol.PlayerDisconnected}{username}");
+                ResetGame();
             }
         }
 
@@ -273,18 +290,22 @@ namespace Escape_Room_2.ServerER
         /// </summary>
         public void HandleAnswer(string username, string answer)
         {
+            if (correctPlayers.Contains(username))
+                return;
             lock (lockObject)
             {
                 bool correct = puzzleManager.CheckAnswer(answer);
 
                 if (correct)
                 {
+                    correctPlayers.Add(username);
                     correctAnswersCount++;
                     BroadcastChat("Server", $"{username} answered correctly! ({correctAnswersCount}/3)");
 
                     if (correctAnswersCount == 3)
                     {
                         correctAnswersCount = 0;
+                        correctPlayers.Clear();
                         bool hasNext = puzzleManager.MoveNext();
                         if (hasNext)
                         {
@@ -377,6 +398,7 @@ namespace Escape_Room_2.ServerER
                 connectedPlayers.Clear();
                 readyCount = 0;
                 correctAnswersCount = 0;
+                correctPlayers.Clear();
                 puzzleManager = new PuzzleManager();
             }
 

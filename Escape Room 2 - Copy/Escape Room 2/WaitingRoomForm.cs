@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using System.Threading.Tasks;
+using System.Windows.Forms;
 using Escape_Room_2.GameHelpers;
 
 namespace Escape_Room_2
@@ -13,6 +14,7 @@ namespace Escape_Room_2
             this.connection = connection;
             connection.MessageReceived += HandleMessageReceived;
             connection.ServerDisconnected += HandleServerDisconnect; //subscribe to server disconnection
+            Task.Delay(1000).ContinueWith(_ => connection.Send(GameProtocol.RequestCount));
         }
 
 

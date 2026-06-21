@@ -77,8 +77,7 @@ namespace Escape_Room_2.Game
         public bool CheckAnswer(string answer)
         {
             if (answer.ToLower().Trim() == puzzles[currentIndex].Answer.ToLower())
-            {
-                WrongAnswers = 0; 
+            { 
                 return true;
             }
             WrongAnswers++;
@@ -95,6 +94,7 @@ namespace Escape_Room_2.Game
             if (currentIndex < puzzles.Count - 1)
             {
                 currentIndex++;
+                WrongAnswers = 0;
                 return true;
             }
             return false; 

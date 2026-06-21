@@ -9,7 +9,7 @@ namespace Escape_Room_2
     public partial class Room1 : Form
     {
         private GameConnection connection;
-
+        private bool switchingForms = false;
         public Room1(GameConnection connection)
         {
             InitializeComponent();
@@ -77,10 +77,11 @@ namespace Escape_Room_2
                 string username = message.Substring(GameProtocol.PlayerDisconnected.Length);
                 Invoke((MethodInvoker)(() =>
                 {
+                    switchingForms = true;
                     connection.ServerDisconnected -= HandleServerDisconnect;
                     connection.MessageReceived -= HandleMessageReceived;
-                    MessageBox.Show($"{username} has disconnected. Returning to the beginning.");
-                    new EscapeRoomForm().Show();
+                    MessageBox.Show($"{username} has disconnected. Returning to the Waiting Room.");
+                    new WaitingRoomForm(connection).Show();
                     this.Close();
                 }));
             }
@@ -211,7 +212,8 @@ namespace Escape_Room_2
         {
             connection.ServerDisconnected -= HandleServerDisconnect;
             connection.MessageReceived -= HandleMessageReceived;
-            connection.Close();
+            if(!switchingForms)
+                connection.Close();
             base.OnFormClosing(e);
         }
 

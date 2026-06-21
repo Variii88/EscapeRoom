@@ -145,6 +145,11 @@ namespace Escape_Room_2.ServerER
                         server.RemovePlayer(info.Username);
                         break;
                     }
+                    //REQUESTCOUNT
+                    else if (message == GameProtocol.RequestCount)
+                    {
+                        server.BroadcastPlayerCount();
+                    }
                     // UNKNOWN
                     else
                     {

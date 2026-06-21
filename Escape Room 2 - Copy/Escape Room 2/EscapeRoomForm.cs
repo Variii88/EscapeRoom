@@ -16,5 +16,11 @@ namespace Escape_Room_2
             modeForm.Show();
             this.Hide(); 
         }
+
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            Application.Exit();
+            base.OnFormClosing(e);
+        }
     }
 }

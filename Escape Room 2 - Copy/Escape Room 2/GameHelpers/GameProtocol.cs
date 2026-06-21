@@ -34,5 +34,6 @@
         public const string Answer = "ANSWER:"; //תשובה שנשלחת על ידי שחקן
         public const string Ready = "READY"; //הודעה שהשחקן מוכן להתחיל את המשחק
         public const string Reveal = "REVEAL"; //בקשה לחשיפת התשובה
+        public const string RequestCount = "REQUESTCOUNT"; // בקשה לשליחת מספר השחקנים המחוברים
     }
 }

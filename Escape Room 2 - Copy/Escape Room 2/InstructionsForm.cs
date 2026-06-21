@@ -7,13 +7,14 @@ namespace Escape_Room_2
     public partial class InstructionsForm : Form
     {
         private GameConnection connection;
+        private bool switchingForms = false;
 
         public InstructionsForm(GameConnection connection)
         {
             InitializeComponent();
             this.connection = connection;
             connection.MessageReceived += HandleMessageReceived;
-            connection.ServerDisconnected += HandleServerDisconnect; //subscribe to server disconnection
+            connection.ServerDisconnected += HandleServerDisconnect; 
         }
 
         private void HandleMessageReceived(string message)
@@ -34,10 +35,11 @@ namespace Escape_Room_2
                 string username = message.Substring(GameProtocol.PlayerDisconnected.Length);
                 Invoke((MethodInvoker)(() =>
                 {
+                    switchingForms = true;
                     connection.ServerDisconnected -= HandleServerDisconnect;
                     connection.MessageReceived -= HandleMessageReceived;
-                    MessageBox.Show($"{username} has disconnected. Returning to the beginning.");
-                    new EscapeRoomForm().Show();
+                    MessageBox.Show("A player disconnected. Returning to the Waiting Room.");
+                    new WaitingRoomForm(connection).Show();
                     this.Close();
                 }));
             }
@@ -63,7 +65,8 @@ namespace Escape_Room_2
         {
             connection.ServerDisconnected -= HandleServerDisconnect;
             connection.MessageReceived -= HandleMessageReceived;
-            connection.Close();
+            if (!switchingForms) 
+                connection.Close();
             base.OnFormClosing(e);
         }
     }

@@ -39,9 +39,9 @@
             this.bnBegin.BackColor = System.Drawing.Color.Sienna;
             this.bnBegin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bnBegin.Font = new System.Drawing.Font("Modern No. 20", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bnBegin.Location = new System.Drawing.Point(273, 430);
+            this.bnBegin.Location = new System.Drawing.Point(279, 430);
             this.bnBegin.Name = "bnBegin";
-            this.bnBegin.Size = new System.Drawing.Size(275, 31);
+            this.bnBegin.Size = new System.Drawing.Size(289, 42);
             this.bnBegin.TabIndex = 0;
             this.bnBegin.Text = "Start";
             this.bnBegin.UseVisualStyleBackColor = false;
@@ -76,7 +76,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(825, 488);
+            this.ClientSize = new System.Drawing.Size(841, 513);
             this.Controls.Add(this.bnBegin);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);

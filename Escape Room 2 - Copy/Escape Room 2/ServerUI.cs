@@ -55,14 +55,22 @@ namespace Escape_Room_2
 
         private void bnReset_Click(object sender, EventArgs e)
         {
-            server.ResetGame();
-            Log("Game was reset by server.");
-            this.Close();
+            DialogResult result = MessageBox.Show(
+        "Are you sure you want to reset the game?",
+        "Confirm Reset",
+        MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
+            {
+                server.ResetGame();
+                Log("Game was reset by server.");
+                this.Close();
+            }
         }
 
         private void bnHAHA_Click(object sender, EventArgs e)
         {
-            Log("HAHAHA!");
+            Log("Server: HAHAHA!");
+            server.BroadcastChat("Server", "HAHAHA!");
         }
 
         private void bnBehaviour_Click(object sender, EventArgs e)
@@ -73,20 +81,15 @@ namespace Escape_Room_2
 
         private void bnClearDB_Click(object sender, EventArgs e)
         {
-            SQLiteConnection conn = new SQLiteConnection(
-    $"Data Source={Path.Combine(Application.StartupPath, "database.db")};Version=3;");
+            DialogResult result = MessageBox.Show(
+        "Are you sure you want to clear the database? All users will be deleted!",
+        "Confirm Clear",
+        MessageBoxButtons.YesNo);
+            if (result == DialogResult.Yes)
             {
-                conn.Open();
-
-                string query = "DELETE FROM EscapeRoomUsers";
-
-                using (SQLiteCommand cmd = new SQLiteCommand(query, conn))
-                {
-                    cmd.ExecuteNonQuery();
-                }
+                server.ClearDatabase();
+                Log("Database cleared.");
             }
-
-            Log("Database cleared.");
         }
     }
 }

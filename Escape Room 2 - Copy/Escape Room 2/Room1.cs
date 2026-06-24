@@ -2,7 +2,9 @@
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
+using Escape_Room_2.Game;
 using Escape_Room_2.GameHelpers;
+
 
 namespace Escape_Room_2
 {
@@ -10,12 +12,13 @@ namespace Escape_Room_2
     {
         private GameConnection connection;
         private bool switchingForms = false;
+        
         public Room1(GameConnection connection)
         {
             InitializeComponent();
             this.connection = connection;
             connection.MessageReceived += HandleMessageReceived;
-            connection.ServerDisconnected += HandleServerDisconnect; //subscribing to server disconnection
+            connection.ServerDisconnected += HandleServerDisconnect; 
         }
 
         private void HandleMessageReceived(string message)
@@ -66,7 +69,8 @@ namespace Escape_Room_2
                 Invoke((MethodInvoker)(() =>
                 {
                     connection.MessageReceived -= HandleMessageReceived;
-                    MessageBox.Show("Game Over! Thanks for playing!");
+                    string result = message.Contains("WIN") ? "You Won! 🎉" : "You Lost!";
+                    MessageBox.Show($"Game Over! {result} Thanks for playing!\n Now you got the key and you can get out of the castle!!!");
                     EscapeRoomForm escapeRoomForm = new EscapeRoomForm();
                     escapeRoomForm.Show();
                     this.Close();
@@ -80,8 +84,8 @@ namespace Escape_Room_2
                     switchingForms = true;
                     connection.ServerDisconnected -= HandleServerDisconnect;
                     connection.MessageReceived -= HandleMessageReceived;
-                    MessageBox.Show($"{username} has disconnected. Returning to the Waiting Room.");
-                    new WaitingRoomForm(connection).Show();
+                    MessageBox.Show($"{username} has disconnected. Returning to the beginning.");
+                    new EscapeRoomForm().Show();
                     this.Close();
                 }));
             }

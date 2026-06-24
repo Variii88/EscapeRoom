@@ -238,7 +238,7 @@ namespace Escape_Room_2.ServerER
                 Log($"{username} removed from connected players.");
                 BroadcastToAll($"{GameProtocol.PlayerDisconnected}{username}");
                 Task.Delay(1000).ContinueWith(_ => BroadcastPlayerCount());
-                ResetGame();
+                Task.Delay(1000).ContinueWith(_ => ResetGame());
             }
         }
 
@@ -280,8 +280,8 @@ namespace Escape_Room_2.ServerER
             lock (lockObject)
             {
                 string fullMessage = $"{GameProtocol.Chat}{username}: {message}";
-                foreach (ActivePlayer client in connectedPlayers)
-                    client.Writer.WriteLine(fullMessage);
+                foreach (ActivePlayer player in connectedPlayers)
+                    player.Writer.WriteLine(fullMessage);
             }
         }
 
@@ -293,8 +293,8 @@ namespace Escape_Room_2.ServerER
         {
             lock (lockObject)
             {
-                foreach (ActivePlayer client in connectedPlayers)
-                    client.Writer.WriteLine(message);
+                foreach (ActivePlayer player in connectedPlayers)
+                    player.Writer.WriteLine(message);
             }
         }
 
@@ -342,7 +342,8 @@ namespace Escape_Room_2.ServerER
                         }
                         else
                         {
-                            BroadcastToAll(GameProtocol.GameOver);
+                            string gameResult = puzzleManager.RevealsUsed < 3 ? "WIN" : "LOSE";
+                            BroadcastToAll($"{GameProtocol.GameOver}{gameResult}");
                             Task.Delay(2000).ContinueWith(_ => ResetGame());
                         }
                     }

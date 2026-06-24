@@ -19,15 +19,17 @@ namespace Escape_Room_2.ServerER
         // קבוע סודי מצורף לסיסמה לצורך אבטחה נוספת
         private const string Pepper = "EscapeRoom_SecretPepper_2026";
 
-        /// <summary>
-        ///מקבלת מחרוזת חיבור למסד הנתונים ושומרת אותה לצורך
-        ///עבודה מול מסד הנתונים, ביצירת אובייקט חדש מסוג AccountManager 
-        /// </summary>
+        
 
         // ניסיונות כושלים עבור משתמש
         private Dictionary<string, int> failedAttempts = new Dictionary<string, int>();
         // המשתמש הושבת
         private Dictionary<string, DateTime> blockedUntil = new Dictionary<string, DateTime>();
+        
+        /// <summary>
+        ///מקבלת מחרוזת חיבור למסד הנתונים ושומרת אותה לצורך
+        ///עבודה מול מסד הנתונים, ביצירת אובייקט חדש מסוג AccountManager 
+        /// </summary>
         public AccountManager(string connectionString)
         {
             this.connectionString = connectionString;

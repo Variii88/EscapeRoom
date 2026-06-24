@@ -18,7 +18,7 @@ namespace Escape_Room_2.GameHelpers
         //משמש לשליחת הודעות מהלקוח לשרת
         public StreamWriter Writer { get; private set; }
 
-        //ששם המשתמש של השחקן המחובר למערכת
+        //שם המשתמש של השחקן המחובר למערכת
         public string Username { get; private set; }
 
         //אירוע המופעל בכל פעם שמתקבלת הודעה חדשה מהשרת
@@ -40,7 +40,7 @@ namespace Escape_Room_2.GameHelpers
         public GameConnection(TcpClient client, StreamReader reader, StreamWriter writer, string username)
         {
             Client = client;
-            this.Reader = reader;
+            Reader = reader;
             Writer = writer;
             Username = username;
             _ = ListenLoop();

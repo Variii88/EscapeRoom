@@ -18,7 +18,7 @@
         public const string Hint = "HINT:"; //הצגת רמז
         public const string Next = "NEXT"; //מעבר לחידה הבאה
         public const string ShowReveal = "SHOWREVEAL"; //פקודה להציג את כפתור Reveal
-        public const string HideReveal = "HIDEREVEAL"; //פקודה להציג את כפתור
+        public const string HideReveal = "HIDEREVEAL"; //פקודה להחביא את כפתור Reveal
         public const string GameOver = "GAMEOVER"; //סיום המשחק
         public const string Start = "START"; //תחילת תהליך ההכנה למשחק
         public const string StartGame = "STARTGAME"; //תחילת המשחק עצמו

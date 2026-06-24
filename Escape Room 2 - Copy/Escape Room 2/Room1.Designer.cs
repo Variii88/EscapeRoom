@@ -88,18 +88,21 @@
             // 
             // labelQuestion
             // 
-            this.labelQuestion.Font = new System.Drawing.Font("Palatino Linotype", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelQuestion.Font = new System.Drawing.Font("Palatino Linotype", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelQuestion.ForeColor = System.Drawing.Color.Maroon;
-            this.labelQuestion.Location = new System.Drawing.Point(0, 9);
+            this.labelQuestion.Location = new System.Drawing.Point(184, 0);
+            this.labelQuestion.MaximumSize = new System.Drawing.Size(700, 150);
             this.labelQuestion.Name = "labelQuestion";
-            this.labelQuestion.Size = new System.Drawing.Size(627, 31);
+            this.labelQuestion.Size = new System.Drawing.Size(443, 94);
             this.labelQuestion.TabIndex = 3;
-            this.labelQuestion.Text = "Qu";
+            this.labelQuestion.Text = "In ancient times I rose at dawn and night, a wandering star that guided sailors r" +
+    "ight.";
+            this.labelQuestion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pnlImages
             // 
             this.pnlImages.Controls.Add(this.panel1);
-            this.pnlImages.Location = new System.Drawing.Point(0, 43);
+            this.pnlImages.Location = new System.Drawing.Point(0, 85);
             this.pnlImages.Name = "pnlImages";
             this.pnlImages.Size = new System.Drawing.Size(303, 408);
             this.pnlImages.TabIndex = 4;
@@ -114,7 +117,7 @@
             // txtbAnswer
             // 
             this.txtbAnswer.Font = new System.Drawing.Font("Modern No. 20", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtbAnswer.Location = new System.Drawing.Point(309, 342);
+            this.txtbAnswer.Location = new System.Drawing.Point(309, 344);
             this.txtbAnswer.Name = "txtbAnswer";
             this.txtbAnswer.Size = new System.Drawing.Size(137, 27);
             this.txtbAnswer.TabIndex = 5;
@@ -137,7 +140,7 @@
             this.bnReveal.BackColor = System.Drawing.Color.Maroon;
             this.bnReveal.Font = new System.Drawing.Font("Lucida Handwriting", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bnReveal.ForeColor = System.Drawing.Color.RosyBrown;
-            this.bnReveal.Location = new System.Drawing.Point(493, 343);
+            this.bnReveal.Location = new System.Drawing.Point(479, 366);
             this.bnReveal.Name = "bnReveal";
             this.bnReveal.Size = new System.Drawing.Size(98, 82);
             this.bnReveal.TabIndex = 7;
@@ -157,7 +160,7 @@
             // 
             // pbVenus
             // 
-            this.pbVenus.Location = new System.Drawing.Point(323, 74);
+            this.pbVenus.Location = new System.Drawing.Point(326, 97);
             this.pbVenus.Name = "pbVenus";
             this.pbVenus.Size = new System.Drawing.Size(147, 87);
             this.pbVenus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -166,7 +169,7 @@
             // 
             // pbMars
             // 
-            this.pbMars.Location = new System.Drawing.Point(337, 167);
+            this.pbMars.Location = new System.Drawing.Point(337, 190);
             this.pbMars.Name = "pbMars";
             this.pbMars.Size = new System.Drawing.Size(123, 100);
             this.pbMars.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -175,19 +178,19 @@
             // 
             // pbSaturn
             // 
-            this.pbSaturn.Location = new System.Drawing.Point(323, 280);
+            this.pbSaturn.Location = new System.Drawing.Point(329, 296);
             this.pbSaturn.Name = "pbSaturn";
             this.pbSaturn.Size = new System.Drawing.Size(144, 107);
             this.pbSaturn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbSaturn.TabIndex = 11;
             this.pbSaturn.TabStop = false;
-            this.pbSaturn.Click += new System.EventHandler(this.pbSaturn_Click);
+           
             // 
             // labelVenus
             // 
             this.labelVenus.AutoSize = true;
             this.labelVenus.Font = new System.Drawing.Font("Script MT Bold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelVenus.Location = new System.Drawing.Point(490, 103);
+            this.labelVenus.Location = new System.Drawing.Point(496, 123);
             this.labelVenus.Name = "labelVenus";
             this.labelVenus.Size = new System.Drawing.Size(56, 34);
             this.labelVenus.TabIndex = 12;
@@ -197,7 +200,7 @@
             // 
             this.labelMars.AutoSize = true;
             this.labelMars.Font = new System.Drawing.Font("Script MT Bold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelMars.Location = new System.Drawing.Point(487, 196);
+            this.labelMars.Location = new System.Drawing.Point(487, 225);
             this.labelMars.Name = "labelMars";
             this.labelMars.Size = new System.Drawing.Size(65, 34);
             this.labelMars.TabIndex = 13;
@@ -207,12 +210,12 @@
             // 
             this.labelSaturn.AutoSize = true;
             this.labelSaturn.Font = new System.Drawing.Font("Script MT Bold", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelSaturn.Location = new System.Drawing.Point(493, 291);
+            this.labelSaturn.Location = new System.Drawing.Point(496, 318);
             this.labelSaturn.Name = "labelSaturn";
             this.labelSaturn.Size = new System.Drawing.Size(53, 34);
             this.labelSaturn.TabIndex = 14;
             this.labelSaturn.Text = "{S}";
-            this.labelSaturn.Click += new System.EventHandler(this.labelSaturn_Click);
+            
             // 
             // Room1
             // 

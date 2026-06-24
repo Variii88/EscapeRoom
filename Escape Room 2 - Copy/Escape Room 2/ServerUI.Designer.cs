@@ -70,7 +70,7 @@
             this.labelServerTitle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.labelServerTitle.Font = new System.Drawing.Font("Modern No. 20", 22F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelServerTitle.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.labelServerTitle.Location = new System.Drawing.Point(195, 21);
+            this.labelServerTitle.Location = new System.Drawing.Point(196, 20);
             this.labelServerTitle.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
             this.labelServerTitle.Name = "labelServerTitle";
             this.labelServerTitle.Size = new System.Drawing.Size(425, 45);
@@ -138,7 +138,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(21F, 37F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(800, 504);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(798, 502);
             this.Controls.Add(this.bnHAHA);
             this.Controls.Add(this.bnReset);
             this.Controls.Add(this.bnBehaviour);
@@ -149,6 +150,7 @@
             this.Font = new System.Drawing.Font("Modern No. 20", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(7, 6, 7, 6);
             this.Name = "ServerUI";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ServerUI";
             this.Load += new System.EventHandler(this.ServerUI_Load);
             this.ResumeLayout(false);
@@ -165,5 +167,6 @@
         private System.Windows.Forms.Button bnBehaviour;
         private System.Windows.Forms.Button bnReset;
         private System.Windows.Forms.Button bnHAHA;
+   
     }
 }

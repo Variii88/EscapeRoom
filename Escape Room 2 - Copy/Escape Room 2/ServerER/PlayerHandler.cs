@@ -5,6 +5,7 @@ using System.Text.Json;
 using System.Threading.Tasks;
 using Escape_Room_2.GameHelpers;
 
+
 namespace Escape_Room_2.ServerER
 {
     /// <summary>
@@ -42,10 +43,15 @@ namespace Escape_Room_2.ServerER
             string Username = null;
             try
             {
-                NetworkStream stream = client.GetStream();
-                StreamReader reader = new StreamReader(stream);
-                StreamWriter writer = new StreamWriter(stream) { AutoFlush = true };
+                NetworkStream networkStream = client.GetStream();
 
+
+
+                StreamReader reader = new StreamReader(networkStream);
+                StreamWriter writer = new StreamWriter(networkStream)
+                {
+                    AutoFlush = true
+                }; 
                 string json = await reader.ReadLineAsync();
                 if (json == null)
                 {
@@ -54,6 +60,12 @@ namespace Escape_Room_2.ServerER
                 }
 
                 PlayerInfo info = JsonSerializer.Deserialize<PlayerInfo>(json);
+                if (server.IsGameRunning())
+                {
+                    await writer.WriteLineAsync("GAME IN PROGRESS");
+                    client.Close();
+                    return;
+                }
                 Username = info.Username; 
                 System.Diagnostics.Debug.WriteLine($"Incoming request from: {info.Username}");
 
@@ -94,6 +106,8 @@ namespace Escape_Room_2.ServerER
                 while (client.Connected)
                 {
                     string message = await reader.ReadLineAsync();
+
+                    // NULL
                     if (message == null)
                     {
                         server.Log($"{info.Username} disconnected.");
@@ -138,16 +152,10 @@ namespace Escape_Room_2.ServerER
                         server.Log($"{info.Username} revealed the answer.");
                         server.RevealAnswer();
                     }
-                    // NULL
-                    else if (message == null)
-                    {
-                        server.Log($"{info.Username} disconnected.");
-                        server.RemovePlayer(info.Username);
-                        break;
-                    }
                     //REQUESTCOUNT
                     else if (message == GameProtocol.RequestCount)
                     {
+                        Task.Delay(1000);
                         server.BroadcastPlayerCount();
                     }
                     // UNKNOWN

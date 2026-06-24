@@ -35,6 +35,7 @@ namespace Escape_Room_2
         private void bnEnter_Click(object sender, EventArgs e)
         {
             connection.ServerDisconnected -= HandleServerDisconnect;
+            connection.MessageReceived -= HandleMessageReceived;
             InstructionsForm instructionsForm = new InstructionsForm(connection);
             instructionsForm.Show();
             this.Hide();

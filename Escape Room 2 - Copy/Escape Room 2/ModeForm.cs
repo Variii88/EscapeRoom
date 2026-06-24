@@ -32,11 +32,6 @@ namespace Escape_Room_2
             this.Hide();
         }
 
-
-        private void ModeForm_Load(object sender, EventArgs e)
-        {
-        }
-
         private async void bnClient_Click(object sender, EventArgs e)
         {
             string serverIP = await UDPDiscovery.FindServerAsync(3000);
@@ -50,11 +45,6 @@ namespace Escape_Room_2
             LoginForm loginForm = new LoginForm(serverIP);
             loginForm.Show();
             this.Hide();
-        }
-
-        private void labelTitleMode_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

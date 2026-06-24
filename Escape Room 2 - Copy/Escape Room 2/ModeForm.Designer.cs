@@ -42,7 +42,7 @@
             this.bnServer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bnServer.Font = new System.Drawing.Font("Gloucester MT Extra Condensed", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bnServer.ForeColor = System.Drawing.Color.SandyBrown;
-            this.bnServer.Location = new System.Drawing.Point(109, 169);
+            this.bnServer.Location = new System.Drawing.Point(129, 151);
             this.bnServer.Margin = new System.Windows.Forms.Padding(0);
             this.bnServer.Name = "bnServer";
             this.bnServer.Size = new System.Drawing.Size(230, 142);
@@ -57,7 +57,7 @@
             this.bnClient.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bnClient.Font = new System.Drawing.Font("Gloucester MT Extra Condensed", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bnClient.ForeColor = System.Drawing.Color.DarkKhaki;
-            this.bnClient.Location = new System.Drawing.Point(465, 169);
+            this.bnClient.Location = new System.Drawing.Point(485, 151);
             this.bnClient.Name = "bnClient";
             this.bnClient.Size = new System.Drawing.Size(230, 142);
             this.bnClient.TabIndex = 1;
@@ -71,31 +71,35 @@
             this.labelTitleMode1.BackColor = System.Drawing.Color.BurlyWood;
             this.labelTitleMode1.Font = new System.Drawing.Font("Perpetua", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitleMode1.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.labelTitleMode1.Location = new System.Drawing.Point(271, 46);
+            this.labelTitleMode1.Location = new System.Drawing.Point(291, 28);
             this.labelTitleMode1.Name = "labelTitleMode1";
             this.labelTitleMode1.Size = new System.Drawing.Size(263, 42);
             this.labelTitleMode1.TabIndex = 2;
             this.labelTitleMode1.Text = "Choose a Role - ";
-            this.labelTitleMode1.Click += new System.EventHandler(this.labelTitleMode_Click);
+            this.labelTitleMode1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+
             // 
             // labelServerEx
             // 
             this.labelServerEx.Font = new System.Drawing.Font("Segoe Script", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelServerEx.Location = new System.Drawing.Point(84, 331);
+            this.labelServerEx.Location = new System.Drawing.Point(104, 313);
             this.labelServerEx.Name = "labelServerEx";
             this.labelServerEx.Size = new System.Drawing.Size(328, 107);
             this.labelServerEx.TabIndex = 3;
             this.labelServerEx.Text = "Only one of you can be the server. If you are, you can\'t play. But you can be the" +
     " Big Boss!";
+            this.labelServerEx.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+
             // 
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Segoe Script", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(428, 331);
+            this.label1.Location = new System.Drawing.Point(448, 313);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(372, 107);
             this.label1.TabIndex = 4;
             this.label1.Text = "A player in the game! A mysterious adventure is waiting for you!";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // labelTitleMode2
             // 
@@ -103,18 +107,20 @@
             this.labelTitleMode2.BackColor = System.Drawing.Color.BurlyWood;
             this.labelTitleMode2.Font = new System.Drawing.Font("Perpetua", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelTitleMode2.ForeColor = System.Drawing.Color.SaddleBrown;
-            this.labelTitleMode2.Location = new System.Drawing.Point(173, 100);
+            this.labelTitleMode2.Location = new System.Drawing.Point(193, 82);
             this.labelTitleMode2.Name = "labelTitleMode2";
             this.labelTitleMode2.Size = new System.Drawing.Size(476, 42);
             this.labelTitleMode2.TabIndex = 5;
             this.labelTitleMode2.Text = "who do you want to be today?";
+            this.labelTitleMode2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+
             // 
             // ModeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(878, 454);
             this.Controls.Add(this.labelTitleMode2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.labelServerEx);
@@ -123,7 +129,6 @@
             this.Controls.Add(this.bnServer);
             this.Name = "ModeForm";
             this.Text = "ModeForm";
-            this.Load += new System.EventHandler(this.ModeForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

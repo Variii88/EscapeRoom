@@ -16,11 +16,16 @@ namespace Escape_Room_2
         public ServerUI()
         {
             InitializeComponent();
-        }
 
- 
+
+        }
+        
+
+
+
         private void ServerUI_Load(object sender, EventArgs e)
         {
+            this.Size = new System.Drawing.Size(822, 560);
             server = new Server(this);
             Log("Server started successfully.");
         }

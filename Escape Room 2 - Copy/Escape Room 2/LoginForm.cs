@@ -24,6 +24,22 @@ namespace Escape_Room_2
 
         private void bnLogin_Click(object sender, EventArgs e)
         {
+            if (txtbUsername.Text.Trim() == "" || txtbPassword.Text.Trim() == "")
+            {
+                MessageBox.Show("Please fill in all fields.");
+                return;
+            }
+            if (txtbUsername.Text.Length > 20)
+            {
+                MessageBox.Show("Username cannot exceed 20 characters.");
+                return;
+            }
+            if (txtbPassword.Text.Length < 4 || txtbPassword.Text.Length > 20)
+            {
+                MessageBox.Show("Password must be between 4 to 20 charachters.");
+                return;
+            }
+
             string username = txtbUsername.Text;
             string password = txtbPassword.Text;
             string hashedPassword = PlayerHelper.HashPassword(password);
@@ -33,6 +49,11 @@ namespace Escape_Room_2
             string response;
             GameConnection connection = PlayerHelper.ConnectToServer(playerInfo, serverIP, out response);
 
+           if (response == "GAME IN PROGRESS")
+            {
+                MessageBox.Show("A game is currently in progress. Please try again later.");
+                return;
+            }
             if (response == "OK")
             {
                 WaitingRoomForm waitingRoomForm = new WaitingRoomForm(connection);
@@ -47,7 +68,9 @@ namespace Escape_Room_2
             {
                 string seconds = response.Substring("BLOCKED:".Length);
                 MessageBox.Show($"Too many failed attempts. Try again in {seconds} seconds.");
-            }
+            } 
         }
+
+       
     }
 }

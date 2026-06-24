@@ -48,11 +48,15 @@ namespace Escape_Room_2.GameHelpers
         public static GameConnection ConnectToServer(PlayerInfo playerInfo, string serverIP, out string response)
         {
             string json = JsonSerializer.Serialize(playerInfo);
+
             TcpClient client = new TcpClient();
             client.Connect(serverIP, Server.Port);
+
             NetworkStream stream = client.GetStream();
+
             StreamWriter writer = new StreamWriter(stream) { AutoFlush = true };
             StreamReader reader = new StreamReader(stream);
+
             writer.WriteLine(json);
             response = reader.ReadLine();
 

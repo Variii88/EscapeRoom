@@ -66,6 +66,7 @@ namespace Escape_Room_2.ServerER
             this.serverUI = serverUI;
             this.connectionString = ConnectionString;
             accountManager = new AccountManager(connectionString);
+            udpBroadcaster = new UDPBroadcaster();
             Task.Run(() => ActivateServer());
         }
 
@@ -124,14 +125,40 @@ namespace Escape_Room_2.ServerER
         {
             SetupDatabase();
             OpenConnection();
-            udpBroadcaster = new UDPBroadcaster();
             udpBroadcaster.StartBroadcasting();
             _ = AcceptingPlayersLoop(conListener, cnclKey);
+        }
+
+        /// <summary>
+        /// הפעולה עוצרת את פעולת השרת ומנתקת את כל המשאבים
+        /// </summary>
+        public void StopServer()
+        {
+            Log("Stopping server...");
+
+            // איתות ל AcceptingPlayersLoop לעצור
+            if (cnclKey != null)
+            {
+                cnclKey.Cancel(); 
+                cnclKey.Dispose(); // שחרור המשאבים של מנגנון הביטול מהזיכרון
+                cnclKey = null;
+            }
+
+            if (conListener != null)
+            {
+                conListener.Stop();
+                conListener = null;
+            }
+
+            StopUDPBroadcasting();
+            CloseAllConnections(); 
+
+            Log("Server stopped successfully.");
         }
         #endregion
 
 
-        #region הרשמה או התחברות
+        #region LOGIN/SIGNUP
 
         /// <summary>
         /// מקבלת אובייקט מסוג PlayerInfo המכיל את פרטי המשתמש
@@ -148,7 +175,7 @@ namespace Escape_Room_2.ServerER
         #endregion
 
 
-        #region ניהול לקוחות
+        #region CLIENT MANAGEMENT
 
         /// <summary>
         /// מקבלת אובייקט מסוג ActivePlayer.
@@ -204,12 +231,13 @@ namespace Escape_Room_2.ServerER
             {
                BroadcastToAll($"{GameProtocol.PlayerDisconnected}{username}");
                Log($"{username} removed from connected players.");
-                Task.Delay(1000).ContinueWith(_ => BroadcastPlayerCount());
+               Task.Delay(1000).ContinueWith(_ => BroadcastPlayerCount());
             }
              else
              {
                 Log($"{username} removed from connected players.");
                 BroadcastToAll($"{GameProtocol.PlayerDisconnected}{username}");
+                Task.Delay(1000).ContinueWith(_ => BroadcastPlayerCount());
                 ResetGame();
             }
         }
@@ -241,7 +269,7 @@ namespace Escape_Room_2.ServerER
         #endregion
 
 
-        #region MESSAGING & BROADCAST
+        #region BROADCAST
 
         /// <summary>
         /// מקבלת שם משתמש והודעת צ'אט
@@ -335,6 +363,14 @@ namespace Escape_Room_2.ServerER
             }
         }
 
+        /// <summary>
+        /// בודקת האם יש משחק פעיל ברגע זה ומחזירה אמת או שקר
+        /// </summary>
+        public bool IsGameRunning()
+        {
+            return gameState == GameState.Playing;
+        }
+
 
         /// <summary>
         /// בונה את פרטי החידה הנוכחית ושולחת אותם לכל השחקנים
@@ -389,7 +425,6 @@ namespace Escape_Room_2.ServerER
         /// </summary>
         public void ResetGame()
         {
-            Log("ENTERED RESET GAME");
             BroadcastToAll(GameProtocol.GameOver);
             System.Threading.Thread.Sleep(500);
             lock (lockObject)

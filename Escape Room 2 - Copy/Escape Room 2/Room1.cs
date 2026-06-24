@@ -188,6 +188,11 @@ namespace Escape_Room_2
         {
             string message = txtbMessage.Text;
             if (message == "") return;
+            if (message.Length > 200)
+            {
+                MessageBox.Show("The message is too long.");
+                return;
+            }
             connection.Send($"{GameProtocol.ChatMsg}{connection.Username}:{message}");
             txtbMessage.Clear();
         }
@@ -197,6 +202,11 @@ namespace Escape_Room_2
         {
             string answer = txtbAnswer.Text;
             if (answer == "") return;
+            if (answer.Length > 100)
+            {
+                MessageBox.Show("Answer cannot exceed 100 characters.");
+                return;
+            }
             connection.Send($"{GameProtocol.Answer}{connection.Username}:{answer}");
             txtbAnswer.Clear();
         }
@@ -215,16 +225,6 @@ namespace Escape_Room_2
             if(!switchingForms)
                 connection.Close();
             base.OnFormClosing(e);
-        }
-
-        private void labelSaturn_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pbSaturn_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
